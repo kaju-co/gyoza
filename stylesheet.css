@@ -1,0 +1,107 @@
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+.top-wrapper {
+  height: 800px;
+  background-image: url(99373CC6-A31F-4A5E-B2A5-195321CC303C.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+}
+.logo {
+  opacity: 0.5;
+  margin-left: 600px;
+  padding-top: 100px;
+}
+.logo img {
+  width: 700px;
+}
+.about {
+  padding-top: 100px;
+}
+.about p {
+  font-size: 18px;
+  opacity: 0.7;
+  margin-right: 700px;
+}
+.container {
+  width: 1475px;
+  text-align: center;
+  margin: 0 auto;
+}
+header {
+  height: 50px;
+  background-color: rgba(48, 40, 51, 0.9);
+  position: fixed;
+  z-index: 10;
+}
+.header-logo {
+  float: left;
+  padding-left: 15px;
+}
+.header-logo img {
+  width: 100px;
+  opacity: 0.8;
+  padding-top: 10px;
+}
+.introduce-wrapper {
+  height: 1500px;
+  background-color: #fffafa;
+}
+.header{
+  color: #302833;
+  padding: 80px 0 50px 0;
+}
+.introduce {
+  float: left;
+  color: #302833;
+}
+.introduce img {
+  width: 200px;
+}
+.introduce a {
+  display: block;
+}
+.g1 {
+  width: 25%;
+  margin: 50px 0;
+}
+.g2 {
+  width: 33%;
+}
+.fab {
+  color: #941f57;
+  opacity: 0.7;
+}
+.fab:hover {
+  opacity: 1;
+}
+
+.gyoza {
+  height: 200px;
+  padding-top: 100px;
+}
+.btn {
+  background-color: #c97586;
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  padding: 18px 40px;
+  border-radius: 6px;
+  opacity: 0.8;
+  text-decoration: none;
+  box-shadow: 0 7px #71686c;
+}
+.btn:hover {
+  opacity: 1;
+}
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  opacity: 0.5;
+  padding-bottom: 50px;
+}
