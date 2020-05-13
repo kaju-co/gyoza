@@ -1,0 +1,66 @@
+/*タブレット向けcss*/
+@media screen and (max-width: 1000px) {
+  .top-wrapper {
+    background-image: url(gyoza.png);
+    background-size: cover;
+  }
+  .logo {
+    top:7%;
+  }
+  .logo img{
+    width: 450px;
+  }
+  .about p {
+    font-size: 15px;
+  }
+  .first {
+    flex-wrap: wrap;
+  }
+  .second {
+    flex-wrap: wrap;
+  }
+  .introduce {
+    width: 50%;
+  }
+  .introduce p {
+    font-size: 15px;
+  }
+  footer {
+    font-size: 15px;
+  }
+}
+
+/*スマホ向けcss*/
+@media screen and (max-width: 700px) {
+  .top-wrapper {
+    background-position: center;
+  }
+  .logo {
+    text-align: center;
+    left: 10%;
+  }
+  .logo img {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .about {
+    text-align: center;
+    right: 10%;
+  }
+  .about p {
+    font-size: 13px;
+  }
+  .first {
+    flex-direction: column;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .introduce {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .introduce p {
+    font-size: 13px;
+  }
+}
